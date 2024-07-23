@@ -416,7 +416,7 @@ When both are specified, the per-species value is used.
 * ``<plasma name>.element`` (`string`) optional (default "")
     The physical element of the plasma. Sets charge, mass and, if available,
     the specific ionization energy of each state.
-    Options are: ``electron``, ``positron``, ``H``, ``D``, ``T``, ``He``, ``Li``, ``Be``, ``B``, ….
+    Options are: ``electron``, ``positron``, ``H``, ``D``, ``T``, ``H2``, ``Li``, ``Be``, ``B``, ….
 
 * ``<plasma name>.can_ionize`` (`bool`) optional (default `0`)
     Whether this plasma can ionize. Can also be set to 1 by specifying ``<plasma name>.ionization_product``.

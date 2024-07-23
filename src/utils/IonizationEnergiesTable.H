@@ -23,7 +23,7 @@
 
 std::map<std::string, int> ion_map_ids = {
     {"H", 0},
-    {"He", 1},
+    {"H2", 1},
     {"Li", 2},
     {"Be", 3},
     {"B", 4},
@@ -63,8 +63,8 @@ constexpr int energies_tab_length = 413;
 constexpr amrex::Real table_ionization_energies[energies_tab_length]{
     // H
     amrex::Real(13.59843449),
-    // He
-    amrex::Real(24.58738880), amrex::Real(54.4177650),
+    // H2
+    amrex::Real(15.43), amrex::Real(29.99),
     // Li
     amrex::Real(5.39171495), amrex::Real(75.6400964), amrex::Real(122.4543581),
     // Be
